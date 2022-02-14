@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>66.2Пример</title>
+</head>
+
+<body>
+  <script>
+      let objVVF = {
+        data1: 'Виталий Валентинович',
+        get showObjVVF2() {
+
+          return this.data1;
+        }
+      };
+
+      console.log(`Имеем объект - objVVF. Нужно вывести данные объекта с помощью функции.
+Второй способ с помощью свойства-аксессора get. Функции, встроеной в сам объект:`);
+
+      console.log(objVVF.showObjVVF2);
+
+
+  </script>
+
+</body>
+
+</html>
